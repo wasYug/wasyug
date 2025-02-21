@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent; /* For WebKit browsers like Safari */
+  tap-highlight-color: transparent; /* Standard property for other browsers */
 }
 
 :root {
@@ -783,6 +785,9 @@ svg {
   .typewriter-text {
     font-size: 1rem;
   }
+  .nft{
+    display: none;
+  }
 }
 
 /* Small Devices (Phones ≤ 480px) */
@@ -807,13 +812,8 @@ svg {
   }
 
   .nft {
-    max-width: 90%;
+      display: none;
   }
-
-  .nft .main .tokenImage {
-    height: 200px;
-  }
-
   /* Contact Section */
   .contact-card {
     width: 90%;
@@ -865,6 +865,10 @@ svg {
   .skill-card {
     width: 100%;
     flex-basis: 100%;
+  }
+
+  .nft{
+    display: none;
   }
 }
 
