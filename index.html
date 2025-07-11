@@ -7,11 +7,11 @@
     <meta name="description" content="This is my portfolio website">
     <link rel="icon" type="image/png" href="./image/logo.png">
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
     <title>Hi there welcome to my portfolio</title>
 </head>
 
 <body>
-    <header>
         <nav class="navbar">
             <div class="logo">Yugansh</div>
             <ul class="nav-links">
@@ -21,8 +21,6 @@
                 <li class="container"><button onclick="location.href='#contact'">Contact</button></li>
             </ul>
         </nav>
-    </header>
-
     <main>
         <section class="home" id="home">
             <div class="home-container">
@@ -33,9 +31,7 @@
                 </div>
                 <div class="nft">
                     <div class='main'>
-                        <img class='tokenImage'
-                            src="./image/logo.png"
-                            alt="NFT" />
+                        <img class='tokenImage' src="./image/logo.png" alt="NFT" />
                         <h2>Yugansh Agarwal</h2>
                         <p class='description'>Passionate coder exploring the tech world 💻 | Learning programming,
                             solving problems,
@@ -46,45 +42,45 @@
                                 <p></p>
                             </div>
                         </div>
-                        <hr/>
+                        <hr />
                     </div>
                 </div>
             </div>
         </section>
 
 
-        <section class="about" id = "about">
+        <section class="about" id="about">
             <h2 class="heading">My Skills</h2>
 
             <div class="skills-container">
-        <!-- Python Card -->
-        <div class="skill-card python-card">
-            <div class="skill-content">
-                <div class="progress-circle" data-percent="90%"></div>
-                <span class="tech-label">Python</span>
-            </div>
-        </div>
+                <!-- Python Card -->
+                <div class="skill-card python-card">
+                    <div class="skill-content">
+                        <div class="progress-circle" data-percent="90%"></div>
+                        <span class="tech-label">Python</span>
+                    </div>
+                </div>
 
-        <!-- bot making Card -->
-        <div class="skill-card bot-making-card">
-            <div class="skill-content">
-                <div class="progress-circle" data-percent="75%"></div>
-                <span class="tech-label">Bot Making</span>
-            </div>
-        </div>
+                <!-- bot making Card -->
+                <div class="skill-card bot-making-card">
+                    <div class="skill-content">
+                        <div class="progress-circle" data-percent="75%"></div>
+                        <span class="tech-label">Bot Making</span>
+                    </div>
+                </div>
 
-        <!-- Web Development Card -->
-        <div class="skill-card web-dev-card">
-            <div class="skill-content">
-                <div class="progress-circle" data-percent="15%"></div>
-                <span class="tech-label">Web Dev</span>
+                <!-- Web Development Card -->
+                <div class="skill-card web-dev-card">
+                    <div class="skill-content">
+                        <div class="progress-circle" data-percent="15%"></div>
+                        <span class="tech-label">Web Dev</span>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
         </section>
 
 
-        <section class="my-links" id = "my-links">
+        <section class="my-links" id="my-links">
             <h2 class="heading">My links</h2>
 
             <div class="links-container">
@@ -92,42 +88,49 @@
                 <div class="card instagram">
                     <div class="links-logo">
                         <svg viewBox="0 0 24 24">
-                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                         </svg>
                     </div>
                     <div class="content">
                         <h2>Instagram</h2>
                         <p>Follow me for daily updates and behind-the-scenes content!</p>
-                        <button class="button" onclick="window.open('https://www.instagram.com/yugansh_agarwal_2/', '_blank')">Follow Now</button>
+                        <button class="button"
+                            onclick="window.open('https://www.instagram.com/yugansh_agarwal_2/', '_blank')">Follow
+                            Now</button>
 
                     </div>
                 </div>
-        
+
                 <!-- Telegram Card -->
                 <div class="card telegram">
                     <div class="links-logo">
                         <svg viewBox="0 0 24 24">
-                            <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z"/>
+                            <path
+                                d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z" />
                         </svg>
                     </div>
                     <div class="content">
                         <h2>Telegram</h2>
                         <p>Contact me directly for quick communication and support!</p>
-                        <button class="button" onclick="window.open('https://t.me/Yug_anshag', '_blank')">Message Now</button>
+                        <button class="button" onclick="window.open('https://t.me/Yug_anshag', '_blank')">Message
+                            Now</button>
                     </div>
                 </div>
-        
+
                 <!-- GitHub Card -->
                 <div class="card github">
                     <div class="links-logo">
                         <svg viewBox="0 0 24 24">
-                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
                         </svg>
                     </div>
                     <div class="content">
                         <h2>GitHub</h2>
                         <p>Explore my projects and contributions to open-source!</p>
-                        <button class="button" onclick="window.open('https://github.com/wasYug', '_blank')">View Profile</button>
+                        <button class="button" onclick="window.open('https://github.com/wasYug', '_blank')">View
+                            Profile</button>
                     </div>
                 </div>
             </div>
@@ -135,30 +138,51 @@
 
 
         <section class="contact" id="contact">
-            <h2 class="heading">Contact Me</h2>
-    <div class="contact-card">
-        <form>
-            <div class="input-group">
-                <input type="text" id="name" placeholder=" " required>
-                <label for="name">Name</label>
+            <div class="form-container">
+                <div class="floating-particle" style="width: 120px; height: 120px; top: -30px; left: -30px;"></div>
+                <div class="floating-particle"
+                    style="width: 80px; height: 80px; bottom: -20px; right: -20px; animation-delay: -5s;"></div>
+        
+                <h2 class="form-title">Contact Me</h2>
+        
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" class="form-input" placeholder="John Doe">
+                        <label for="name" class="form-label">Full Name</label>
+                        <div class="glow"></div>
+                        <div class="input-icon">👨‍💼</div>
+                    </div>
+        
+                    <div class="form-group">
+                        <input type="email" id="email" class="form-input" placeholder="john@example.com">
+                        <label for="email" class="form-label">Email Address</label>
+                        <div class="glow"></div>
+                        <div class="input-icon">✉️</div>
+                    </div>
+        
+                    <div class="form-group">
+                        <input type="text" id="subject" class="form-input" placeholder="Project Inquiry">
+                        <label for="subject" class="form-label">Subject</label>
+                        <div class="glow"></div>
+                        <div class="input-icon">📝</div>
+                    </div>
+        
+                    <div class="form-group">
+                        <textarea id="message" class="form-input" placeholder="Hello, I wanted to discuss..."></textarea>
+                        <label for="message" class="form-label">Your Message</label>
+                        <div class="glow"></div>
+                    </div>
+        
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+        
+                <div class="success-message">
+                    <div class="checkmark"></div>
+                    <h3 style="margin-top: 20px;">Message Sent!</h3>
+                </div>
             </div>
-            <div class="input-group">
-                <input type="email" id="email" placeholder=" " required>
-                <label for="email">Email</label>
-            </div>
-            <div class="input-group">
-                <input type="text" id="subject" placeholder=" " required>
-                <label for="subject">Subject</label>
-            </div>
-            <div class="input-group">
-                <textarea id="message" placeholder=" " required></textarea>
-                <label for="message">Your Message</label>
-            </div>
-            <button type="submit" class="submit-btn">Send Message</button>
-        </form>
-    </div>
+        
         </section>
-
 
     </main>
 
@@ -167,22 +191,32 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>About Me</h3>
-                    <p>I'm a passionate developer creating amazing web experiences. Let's build something great together!</p>
+                    <p>I'm a passionate developer creating amazing web experiences. Let's build something great
+                        together!</p>
                 </div>
                 <div class="footer-section">
                     <h3>Connect</h3>
                     <div class="social-links">
                         <a href="https://github.com/wasYug" target="_blank" rel="noopener noreferrer">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path 
-                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
                         </a>
-                        <a href="https://www.instagram.com/yugansh_agarwal_2/" target="_blank" rel="noopener noreferrer">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path 
-                                d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.247-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z."/></svg>
+                        <a href="https://www.instagram.com/yugansh_agarwal_2/" target="_blank"
+                            rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.247-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z." />
+                            </svg>
                         </a>
                         <a href="https://t.me/Yug_anshag" target="_blank" rel="noopener noreferrer">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.72-.41.96-.67.98-.58.05-.99-.38-1.53-.75-.85-.56-1.33-.91-2.15-1.47-.93-.63-.33-1.01.21-1.59.14-.15 2.31-2.06 2.35-2.24.02-.06.02-.28-.1-.4s-.34-.09-.49-.05c-.21.05-3.43 2.14-4.84 3.07-.46.3-.88.44-1.25.44-.42 0-1.22-.27-1.82-.49-.73-.27-1.31-.42-1.26-.89.03-.28.33-.57.91-.86 4.02-1.82 6.7-3.09 8.06-3.61 3.33-1.28 4.03-1.5 4.48-1.51.1-.01.33.02.48.18.12.13.13.3.13.33z"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.72-.41.96-.67.98-.58.05-.99-.38-1.53-.75-.85-.56-1.33-.91-2.15-1.47-.93-.63-.33-1.01.21-1.59.14-.15 2.31-2.06 2.35-2.24.02-.06.02-.28-.1-.4s-.34-.09-.49-.05c-.21.05-3.43 2.14-4.84 3.07-.46.3-.88.44-1.25.44-.42 0-1.22-.27-1.82-.49-.73-.27-1.31-.42-1.26-.89.03-.28.33-.57.91-.86 4.02-1.82 6.7-3.09 8.06-3.61 3.33-1.28 4.03-1.5 4.48-1.51.1-.01.33.02.48.18.12.13.13.3.13.33z" />
                             </svg>
                         </a>
                     </div>
